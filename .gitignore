@@ -1,0 +1,42 @@
+# Python Virtual Environment
+# This directory contains all installed libraries and can be very large.
+# It should always be ignored and recreated from a requirements.txt file.
+venv/
+.venv/
+env/
+
+# Python Bytecode and Caches
+# These are compiled files Python generates automatically.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook Checkpoints
+# Jupyter creates this hidden folder to store notebook checkpoints.
+.ipynb_checkpoints/
+
+# Generated Data Files (IMPORTANT)
+# It's good practice to not commit large, auto-generated datasets to Git.
+# Your notebook creates these files in the /data directory.
+data/*.csv
+data/*.json
+
+# If you have specific raw data files you WANT to keep, make an exception.
+# For example, to keep an original problem file, you would add:
+# !data/raw_problem_data.json
+
+# Trained Models
+# Model files are often large binary files that shouldn't be in version control.
+*.pkl
+*.joblib
+*.h5
+
+# IDE / Editor specific files
+# These store your personal editor settings.
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
